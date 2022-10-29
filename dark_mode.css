@@ -1,0 +1,89 @@
+.dark_mode {
+    padding: 25px 0px 0px 15px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 197, 231);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #000000;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+    background-color: white;
+}
+
+.body_dark_active {
+    background-image: linear-gradient(to right, rgb(48, 33, 77, 1), rgb(21, 82, 80, 1));
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+.cards_dark_active {
+    --Bug: rgba(0, 139, 19, 0.658);
+    --Dragon: rgba(30, 34, 75, 0.8);
+    --Electric: rgba(202, 189, 0, 0.548);
+    --Fairy: rgba(165, 102, 157, 0.8);
+    --Fighting: rgba(131, 48, 31, 0.8);
+    --Fire: rgb(180, 102, 0, 0.8);
+    --Flying: rgba(110, 139, 155, 0.8);
+    --Ghost: rgba(81, 44, 97, 0.8);
+    --Grass: rgba(6, 70, 1, 0.8);
+    --Ground: rgba(90, 85, 16, 0.8);
+    --Ice: rgba(90, 145, 142, 0.8);
+    --Steel: rgba(114, 114, 114, 0.8);
+    --Normal: rgba(155, 137, 117, 0.8);
+    --Poison: rgba(133, 17, 127, 0.8);
+    --Psychic: rgba(158, 32, 89, 0.8);
+    --Rock: rgba(87, 79, 54, 0.8);
+    --Water: rgba(0, 88, 136, 0.8);
+}

@@ -1,0 +1,247 @@
+:root {
+    --Bug: rgba(0, 255, 34, 0.74);
+    --Dragon: rgba(61, 70, 149, 0.6);
+    --Electric: rgba(247, 231, 0, 0.7);
+    --Fairy: rgb(250, 151, 237);
+    --Fighting: rgba(197, 71, 46, 0.6);
+    --Fire: rgba(255, 145, 0, 0.6);
+    --Flying: rgba(180, 229, 255, 0.6);
+    --Ghost: rgba(132, 73, 157, 0.6);
+    --Grass: rgba(14, 173, 0, 0.6);
+    --Ground: rgba(163, 155, 27, 0.6);
+    --Ice: rgba(145, 235, 230, 0.6);
+    --Steel: rgba(203, 203, 203, 0.6);
+    --Normal: rgba(207, 181, 153, 0.781);
+    --Poison: rgba(228, 29, 218, 0.6);
+    --Psychic: rgba(255, 49, 141, 0.6);
+    --Rock: rgba(141, 127, 86, 0.6);
+    --Water: rgba(3, 164, 248, 0.4);
+}
+
+#Bug,
+#bugOption {
+    background-color: var(--Bug);
+}
+
+#Dragon,
+#dragonOption {
+    background-color: var(--Dragon);
+}
+
+#Electric,
+#electricOption {
+    background-color: var(--Electric);
+}
+
+#Fairy,
+#fairyOption {
+    background-color: var(--Fairy);
+}
+
+#Fighting,
+#fightingOption {
+    background-color: var(--Fighting);
+}
+
+#Fire,
+#fireOption {
+    background-color: var(--Fire);
+}
+
+#Flying,
+#flyingOption {
+    background-color: var(--Flying);
+}
+
+#Ghost,
+#ghostOption {
+    background-color: var(--Ghost);
+}
+
+#Grass,
+#grassOption {
+    background-color: var(--Grass);
+}
+
+#Ground,
+#groundOption {
+    background-color: var(--Ground);
+}
+
+#Ice,
+#iceOption {
+    background-color: var(--Ice);
+}
+
+#Steel,
+#steelOption {
+    background-color: var(--Steel);
+}
+
+#Normal,
+#normalOption {
+    background-color: var(--Normal);
+}
+
+#Poison,
+#poisonOption {
+    background-color: var(--Poison);
+}
+
+#Psychic,
+#psychicOption {
+    background-color: var(--Psychic);
+}
+
+
+#Rock,
+#rockOption {
+    background-color: var(--Rock);
+}
+
+#Water,
+#waterOption {
+    background-color: var(--Water);
+}
+
+#imgBug {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/3/3c/Pokémon_Bug_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgb(0, 170, 37);
+    box-shadow: 1px 1px 10px var(--Bug);
+}
+
+#imgDragon {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/a/a6/Pokémon_Dragon_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgb(17, 32, 119);
+    box-shadow: 1px 1px 10px var(--Dragon);
+}
+
+#imgElectric {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/a/a9/Pokémon_Electric_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgb(134, 136, 0);
+    box-shadow: 1px 1px 10px var(--Electric);
+}
+
+#imgFairy {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/0/08/Pokémon_Fairy_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgba(200, 0, 207, 0.747);
+    box-shadow: 1px 1px 10px var(--Fairy);
+}
+
+#imgFighting {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/b/be/Pokémon_Fighting_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgb(82, 0, 0);
+    box-shadow: 1px 1px 10px var(--Fighting);
+}
+
+#imgFire {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/5/56/Pokémon_Fire_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgba(151, 74, 1, 0.877);
+    box-shadow: 1px 1px 10px var(--Fire);
+}
+
+#imgFlying {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/e/e0/Pokémon_Flying_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgb(106, 109, 255);
+    box-shadow: 1px 1px 10px var(--Flying);
+}
+
+#imgGhost {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/a/a0/Pokémon_Ghost_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgba(59, 0, 114, 0.767);
+    box-shadow: 1px 1px 10px var(--Ghost);
+}
+
+#imgGrass {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/f/f6/Pokémon_Grass_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgba(19, 66, 0, 0.89);
+    box-shadow: 1px 1px 10px var(--Grass);
+}
+
+#imgGround {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/8/8d/Pokémon_Ground_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgba(58, 65, 0, 0.938);
+    box-shadow: 1px 1px 10px var(--Ground);
+}
+
+#imgIce {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/8/88/Pokémon_Ice_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgb(0, 111, 145);
+    box-shadow: 1px 1px 10px var(--Ice);
+}
+
+#imgSteel {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/3/38/Pokémon_Steel_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgba(39, 39, 39, 0.897);
+    box-shadow: 1px 1px 10px var(--Steel);
+}
+
+#imgNormal {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/a/aa/Pokémon_Normal_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgb(126, 108, 108);
+    box-shadow: 1px 1px 10px var(--Normal);
+}
+
+#imgPoison {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Pokémon_Poison_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgba(153, 0, 184, 0.836);
+    box-shadow: 1px 1px 10px var(--Poison);
+}
+
+#imgPsychic {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/a/ab/Pokémon_Psychic_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgba(228, 1, 198, 0.87);
+    box-shadow: 1px 1px 10px var(--Psychic);
+}
+
+#imgRock {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/b/bb/Pokémon_Rock_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgba(65, 65, 65, 0.959);
+    box-shadow: 1px 1px 10px var(--Rock);
+}
+
+#imgWater {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Pokémon_Water_Type_Icon.svg');
+    border-radius: 50%;
+    border: 2px solid rgba(1, 13, 187, 0.932);
+    box-shadow: 1px 1px 10px var(--Water);
+}
+
+.Bug,
+.Dragon,
+.Electric,
+.Fairy,
+.Fighting,
+.Fire,
+.Flying,
+.Ghost,
+.Grass,
+.Ground,
+.Ice,
+.Metal,
+.Normal,
+.Psychic,
+.Poison,
+.Rock,
+.Water {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

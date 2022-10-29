@@ -1,0 +1,43 @@
+#pokemons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 450px;
+}
+.poke_container{
+    padding: 5px;
+}
+
+.poke_card{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.6);
+}
+
+.poke_image:hover{
+    transform: scale(1.4);
+    transition: 0.3s;
+}
+
+.poke_number{
+    font-family:cursive
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.poke_name{
+    padding-bottom:20px;
+}
+
+.poke_types{
+    display: flex;
+    justify-content: center;
+}
+
+.poke_types img{
+    width: 35px;
+    height: 35px;
+}

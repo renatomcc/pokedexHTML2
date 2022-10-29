@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="upperStyle.css">
+    <link rel="stylesheet" href="containerStyle.css">
+    <link rel="stylesheet" href="bgStyles.css">
+    <link rel="stylesheet" href="dark_mode.css">
+    <title>Pokedex</title>
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/retro-land-mayhem');
+    </style>
+</head>
+
+<body>
+    <div id="container" >
+        <div class="header">
+            <div class="dark_mode">
+                <label class="switch">
+                    <input type="checkbox" id="toggleButton" onchange="dark_mode()">
+                    <div class="slider round">
+                    </div>
+                </label>
+            </div>
+            <div class="pokedex_title">POKEDEX</div>
+        </div>
+        <div class="filter_bar">
+            <div class="id_filter">
+                <div class="sortTitle">
+                    <label> SORT BY ID/NAME </label>
+                </div>
+                <div>
+                    <select id="sortOptionsID" onchange="sortByNameOrID()">
+                        <option value="id" id="sortOption">ID</option>
+                        <option value="name" id="sortOption">NAME</option>
+                    </select>
+                </div>
+            </div>
+            <div class="type_filter">
+                <div class="sortTitle">
+                    <label> SORT BY TYPE </label>
+                </div>
+                <div>
+                    <select id="sortOptions" onchange="sortPokemonByType()">
+                        <option>ALL</option>
+                        <option value="Bug" id="bugOption">BUG</option>
+                        <option value="Dragon" id="dragonOption">DRAGON</option>
+                        <option value="Electric" id="electricOption">ELECTRIC</option>
+                        <option value="Fairy" id="fairyOption">FAIRY</option>
+                        <option value="Fighting" id="fightingOption">FIGHTING</option>
+                        <option value="Fire" id="fireOption">FIRE</option>
+                        <option value="Flying" id="flyingOption">FLYING</option>
+                        <option value="Ghost" id="ghostOption">GHOST</option>
+                        <option value="Grass" id="grassOption">GRASS</option>
+                        <option value="Ground" id="groundOption">GROUND</option>
+                        <option value="Ice" id="iceOption">ICE</option>
+                        <option value="Steel" id="steelOption">STEEL</option>
+                        <option value="Normal" id="normalOption">NORMAL</option>
+                        <option value="Poison" id="poisonOption">POISON</option>
+                        <option value="Psychic" id="psychicOption">PSYCHIC</option>
+                        <option value="Rock" id="rockOption">ROCK</option>
+                        <option value="Water" id="waterOption">WATER</option>
+                    </select>
+                </div>
+            </div>
+            <div class="search">
+                <div class="searchTitle">
+                    <label> SEARCH POKEMON </label>
+                </div>
+                <div class="search_bar">
+                    <div class="searchIcon">
+                        <img src="./images/searchIcon.png" alt="Search Icon" />
+                    </div>
+                    <div class="searchInput">
+                        <input type="text" id="inputText">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="pokemons"></div>
+    </div>
+</body>
+
+</html>
